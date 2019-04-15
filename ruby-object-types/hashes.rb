@@ -26,3 +26,11 @@ employee.values # returns hash values as an array
 employee.length # retuns integer with length of key/values
 employee.size # retuns integer with length of key/values
 employee.to_a # returns an array with key/values as individual array values
+
+# hash shorthand
+# keys are always a symbol
+article = {
+  title: "Welcome to the Article",
+  author: "Bob Cobb",
+  date: "November 3"
+}
