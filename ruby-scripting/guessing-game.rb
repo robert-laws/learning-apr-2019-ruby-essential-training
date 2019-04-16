@@ -2,12 +2,13 @@
 
 random_number = (rand(10) + 1)
 count = 1
+MAX_GUESSES = 3
 
 puts "|------------------|"
 puts "|  Guessing Game   |"
 puts "|------------------|"
 
-while count <= 3 do
+while count <= MAX_GUESSES do
   print "Select a number between 1 and 10: "
   user_guess = gets.chomp.to_i
   if user_guess.between?(1, 10)
