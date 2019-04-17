@@ -4,8 +4,13 @@ Code along following Kevin Skoglund's course Ruby Essential Training: 1 The Basi
 
 ## Ruby Object Types
 
-
-
+* numbers - integers
+* numbers - floats
+* strings
+* booleans
+* arrays
+* hashes
+* symbols
 
 ## Control Structures
 
